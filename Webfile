@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training Center - Kloud Enrich - Ramesh - Batch 10 </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0078D4;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #005A9E;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background-image: url('https://via.placeholder.com/1200x400');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .content h2 {
+            color: #0078D4;
+        }
+
+        .courses {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .course {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            width: 30%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .course h3 {
+            color: #005A9E;
+        }
+
+        footer {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+            color: #555;
+        }
+
+        footer a {
+            color: #0078D4;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Kloud Enrich Training Center - Ramesh - Batch 10 </h1>
+    <p>Empowering Your Future with Cloud Expertise</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="hero">
+    <h1>Welcome to Kloud Enrich</h1>
+    <p>Master Azure, DevOps, AI, and more with our expert-led training programs.</p>
+</div>
+
+<div class="content">
+    <h2 id="courses">Our Popular Courses</h2>
+    <div class="courses">
+        <div class="course">
+            <h3>Azure Fundamentals</h3>
+            <p>Learn the basics of Azure and cloud computing to kickstart your cloud journey.</p>
+        </div>
+        <div class="course">
+            <h3>DevOps with Azure</h3>
+            <p>Master CI/CD pipelines, automation, and infrastructure as code with Azure DevOps.</p>
+        </div>
+        <div class="course">
+            <h3>AI and Machine Learning</h3>
+            <p>Explore AI services on Azure and learn to create intelligent applications.</p>
+        </div>
+    </div>
+
+    <h2 id="about">About Us</h2>
+    <p>Kloud Enrich is a leading training institute specializing in cloud technologies, DevOps, and AI. Our mission is to equip professionals with the skills needed to excel in today's technology-driven world.</p>
+
+    <h2 id="contact">Contact Us</h2>
+    <p>Email: <a href="mailto:info@kloudenrich.com">info@kloudenrich.com</a></p>
+    <p>Phone: +1-234-567-890</p>
+</div>
+
+<footer>
+    <p>&copy; 2024 Kloud Enrich Training Center- Ramesh. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
